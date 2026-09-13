@@ -1,17 +1,23 @@
 # FastAPI Fundamentals
 
-A beginner-friendly FastAPI project created to practice the basics of building APIs with Python.
+A beginner-friendly FastAPI project built to practice the fundamentals of API development using Python.
 
 ## Features
 
-- FastAPI project setup
-- GET endpoints
+- REST API development with FastAPI
+- GET, POST, PUT, and DELETE endpoints
 - Path parameters
 - Query parameters
-- POST requests
-- PUT requests
-- DELETE requests
+- Request body validation with Pydantic
 - Swagger API documentation
+- Basic CRUD operations
+
+## Tech Stack
+
+- Python
+- FastAPI
+- Uvicorn
+- Pydantic
 
 ## Endpoints
 
@@ -23,14 +29,7 @@ A beginner-friendly FastAPI project created to practice the basics of building A
 - `PUT /users/{user_id}`
 - `DELETE /users/{user_id}`
 
-## Tech Stack
-
-- Python
-- FastAPI
-- Uvicorn
-- Pydantic
-
-## Run the Project
+## Run Locally
 
 Install dependencies:
 
